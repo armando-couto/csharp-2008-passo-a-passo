@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="C:\PROGRAM FILES\MICROSOFT SQL SERVER\MSSQL.1\MSSQL\DATA\NORTHWIND.MDF" Class="NorthwindDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=&quot;C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Data\Northwind.mdf&quot;;Integrated Security=True;Connect Timeout=30;User Instance=True" SettingsObjectName="Suppliers.Properties.Settings" SettingsPropertyName="NorthwindConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Suppliers" Member="Suppliers">
+    <Type Name="Supplier">
+      <Column Name="SupplierID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="ContactName" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Association Name="Supplier_Product" Member="Products" OtherKey="SupplierID" Type="Product" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Products" Member="Products">
+    <Type Name="Product">
+      <Column Name="ProductID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductName" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="SupplierID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuantityPerUnit" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="UnitPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="Supplier_Product" Member="Supplier" ThisKey="SupplierID" Type="Supplier" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

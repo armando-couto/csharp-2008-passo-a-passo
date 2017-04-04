@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0f46b765-ab98-4cf5-a6e7-e4a930667dc6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4500/Completed NorthwindServices/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="c805ffbf-dcd7-487d-9c68-b89b08abdbbd" SourceId="1" SourceUrl="http://localhost:4500/Completed NorthwindServices/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="ProductsService1.wsdl" MetadataType="Wsdl" ID="73907ccf-0314-45f1-b214-3de3ed62a38e" SourceId="1" SourceUrl="http://localhost:4500/Completed NorthwindServices/Service.svc?wsdl" />
+    <MetadataFile FileName="Service1.disco" MetadataType="Disco" ID="c049e955-a10b-457b-aae9-91d5c50b01e7" SourceId="1" SourceUrl="http://localhost:4500/Completed NorthwindServices/Service.svc?disco" />
+    <MetadataFile FileName="Service31.xsd" MetadataType="Schema" ID="c9352886-ca91-4a1a-81cf-79aa6824ac7e" SourceId="1" SourceUrl="http://localhost:4500/Completed NorthwindServices/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service32.xsd" MetadataType="Schema" ID="9b1788a5-3788-4bbf-83b1-9d77bb69cf7f" SourceId="1" SourceUrl="http://localhost:4500/Completed NorthwindServices/Service.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

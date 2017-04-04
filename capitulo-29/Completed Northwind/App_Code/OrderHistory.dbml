@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<Database Name="Northwind" Class="OrderHistoryDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLExpress;Initial Catalog=Northwind;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="NorthwindConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.CustOrderHist" Method="CustOrderHist">
+    <Parameter Name="CustomerID" Parameter="customerID" Type="System.String" DbType="NChar(5)" />
+    <ElementType Name="CustOrderHistResult">
+      <Column Name="ProductName" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="Total" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

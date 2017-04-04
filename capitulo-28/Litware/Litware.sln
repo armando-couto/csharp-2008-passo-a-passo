@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Litware", ".", "{2A55BFE1-8A2F-41E2-94DD-DA9A1341F4CC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Litware"
+		Debug.AspNetCompiler.PhysicalPath = "E:\Microsoft Press\Visual CSharp Step By Step\Chapter 28\Litware\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Litware\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Litware"
+		Release.AspNetCompiler.PhysicalPath = "E:\Microsoft Press\Visual CSharp Step By Step\Chapter 28\Litware\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Litware\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1264"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A55BFE1-8A2F-41E2-94DD-DA9A1341F4CC}.Debug|.NET.ActiveCfg = Debug|.NET
+		{2A55BFE1-8A2F-41E2-94DD-DA9A1341F4CC}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

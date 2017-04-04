@@ -1,0 +1,19 @@
+﻿<Window x:Class="Selection.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+    Title="Dates" Height="314" Width="373">
+    <Grid>
+    <Label HorizontalAlignment="Left" Margin="20,25,0,0" Name="label1" Width="35.63" Height="23.2766666666667" VerticalAlignment="Top">First</Label>
+    <Label Height="23.2766666666667" HorizontalAlignment="Left" Margin="20,56,0,0" Name="label2" VerticalAlignment="Top" Width="52.63">Second</Label>
+	<WindowsFormsHost Name="hostFirst" Margin="85,25,18,0" Height="23.2766666666667" VerticalAlignment="Top">
+      <wf:DateTimePicker Name="first"/>
+    </WindowsFormsHost>
+    <WindowsFormsHost Name="hostSecond" Margin="85,56,18,0" Height="23.2766666666667" VerticalAlignment="Top">
+	  <wf:DateTimePicker Name="second"/>
+    </WindowsFormsHost>
+    <Button Height="23" HorizontalAlignment="Left" Margin="20,100,0,0" Name="compare" VerticalAlignment="Top" Width="75" Click="compareClick">Compare</Button>
+    <TextBox Margin="20,131,104,20" Name="info" TextWrapping="WrapWithOverflow" AcceptsReturn="False" IsReadOnly="True" />
+    <Button Height="22" HorizontalAlignment="Right" Margin="0,0,18,20" Name="quit" VerticalAlignment="Bottom" Width="75" Click="quitClick">Quit</Button>
+  </Grid>
+</Window>

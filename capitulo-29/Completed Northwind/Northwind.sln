@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Completed Northwind", ".", "{DDC9A9B4-04D2-40B3-9F5F-E8A0C4F24F82}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Completed Northwind"
+		Debug.AspNetCompiler.PhysicalPath = "E:\Microsoft Press\Visual CSharp Step By Step\Chapter 29\Completed Northwind\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Completed Northwind\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Completed Northwind"
+		Release.AspNetCompiler.PhysicalPath = "E:\Microsoft Press\Visual CSharp Step By Step\Chapter 29\Completed Northwind\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Completed Northwind\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1146"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDC9A9B4-04D2-40B3-9F5F-E8A0C4F24F82}.Debug|.NET.ActiveCfg = Debug|.NET
+		{DDC9A9B4-04D2-40B3-9F5F-E8A0C4F24F82}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
