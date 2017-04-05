@@ -12,7 +12,8 @@ namespace Parameters
     {
         static void Entrance()
         {
-            // to do
+			int teste = 76;
+			Console.WriteLine("Teste: " + Sexo.Masculino);
         }
 
         static void Main(string[] args)
@@ -27,4 +28,6 @@ namespace Parameters
             }
         }
     }
+
+	enum Sexo : short { Masculino, Feminino }
 }

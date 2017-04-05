@@ -12,7 +12,7 @@ namespace Parameters
     {
         static void Entrance()
         {
-            int i = 0;
+            int i = 2;
             Console.WriteLine(i);
             Pass.Value(ref i);
             Console.WriteLine(i);
@@ -27,7 +27,7 @@ namespace Parameters
         {
             try
             {
-                Entrance();
+                //Entrance();
             }
             catch (Exception ex)
             {

@@ -6,12 +6,12 @@ namespace Parameters
 	{
         public static void Value(ref int param)
         {
-            param = 42;
+            param = 43;
         }
 
         public static void Reference(WrappedInt param)
         {
-            param.Number = 42;
+            param.Number = 43;
         }
 	}
 }

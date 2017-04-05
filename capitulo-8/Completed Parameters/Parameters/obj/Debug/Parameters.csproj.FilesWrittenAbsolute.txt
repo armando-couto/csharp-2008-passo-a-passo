@@ -1,0 +1,6 @@
+/Users/armandocouto/workspace/c_sharp-2008-passo_a_passo/capitulo-8/Completed Parameters/Parameters/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/armandocouto/workspace/c_sharp-2008-passo_a_passo/capitulo-8/Completed Parameters/Parameters/obj/Debug/Parameters.Properties.Resources.resources
+/Users/armandocouto/workspace/c_sharp-2008-passo_a_passo/capitulo-8/Completed Parameters/Parameters/bin/Debug/Parameters.exe.mdb
+/Users/armandocouto/workspace/c_sharp-2008-passo_a_passo/capitulo-8/Completed Parameters/Parameters/bin/Debug/Parameters.exe
+/Users/armandocouto/workspace/c_sharp-2008-passo_a_passo/capitulo-8/Completed Parameters/Parameters/obj/Debug/Parameters.exe
+/Users/armandocouto/workspace/c_sharp-2008-passo_a_passo/capitulo-8/Completed Parameters/Parameters/obj/Debug/Parameters.exe.mdb

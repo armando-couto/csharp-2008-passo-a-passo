@@ -1,0 +1,4 @@
+/Users/armandocouto/Downloads/Visual CSharp Step By Step/capitulo-1/Completed TextHello/TextHello/bin/Debug/TextHello.exe.mdb
+/Users/armandocouto/Downloads/Visual CSharp Step By Step/capitulo-1/Completed TextHello/TextHello/bin/Debug/TextHello.exe
+/Users/armandocouto/Downloads/Visual CSharp Step By Step/capitulo-1/Completed TextHello/TextHello/obj/Debug/TextHello.exe
+/Users/armandocouto/Downloads/Visual CSharp Step By Step/capitulo-1/Completed TextHello/TextHello/obj/Debug/TextHello.exe.mdb
